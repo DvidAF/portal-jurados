@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#034EA2" />
+    <title>Portal de jurados · Programación IV</title>
+    <meta
+      name="description"
+      content="Conozca los proyectos integradores de Programación IV y acceda a los videos de presentación de los estudiantes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Condensed:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="proyectos.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#proyectos">Ir a los proyectos</a>
+    <section class="hero">
+      <div class="container hero-in">
+        <div class="hero-copy">
+          <span class="eyebrow">PROYECTOS INTEGRADORES · PROGRAMACIÓN IV</span>
+          <h1>Ideas que se convierten<br />en <em>soluciones.</em></h1>
+          <p>Portal de jurados</p>
+          <div class="hero-desc">
+            Conozca los proyectos de nuestros estudiantes antes de la
+            exposición. Cada video es una primera mirada a su propuesta, su
+            funcionamiento y su aporte.
+          </div>
+          <a class="yellow-btn" href="#proyectos"
+            >Explorar proyectos
+            <svg
+              class="button-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M12 4v16m-7-7 7 7 7-7" /></svg
+          ></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-window">
+            <div class="window-top">
+              <i></i><i></i><i></i><span>PROYECTOS / 2026</span>
+            </div>
+            <div class="art-content">
+              <div class="art-code">&lt; / &gt;</div>
+              <div class="art-line long"></div>
+              <div class="art-line"></div>
+              <div class="art-play">▶</div>
+              <div class="art-bottom">
+                <span>De la idea a la práctica</span><span>↗</span>
+              </div>
+            </div>
+          </div>
+          <div class="art-tag"><span>●</span> Tecnología con propósito</div>
+        </div>
+      </div>
+    </section>
+    <main class="container">
+      <section class="welcome notice-panel" aria-labelledby="welcomeTitle">
+        <div>
+          <h2 id="welcomeTitle">
+            Gracias por acompañar a nuestros estudiantes
+          </h2>
+          <p>
+            Explore los videos antes de las exposiciones para conocer cada
+            propuesta y preparar sus preguntas. Consulte la guía para orientar
+            su revisión.
+          </p>
+        </div>
+        <button class="text-button" id="openGuide2">
+          Cómo revisar
+          <svg
+            class="button-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M4 12h16m-7-7 7 7-7 7" />
+          </svg>
+        </button>
+      </section>
+      <section
+        id="proyectos"
+        class="projects-section"
+        aria-labelledby="projectsTitle"
+      >
+        <div class="section-heading">
+          <div>
+            <span class="overline">GALERÍA DE PROYECTOS</span>
+            <h2 id="projectsTitle">Conozca las propuestas</h2>
+            <p>Una introducción a cada sistema, contada por sus creadores.</p>
+          </div>
+          <span class="edition">TERCER AÑO <span>2026</span></span>
+        </div>
+        <div class="results-line">
+          <span id="resultCount" role="status" aria-live="polite"></span
+          ><span>Videos de presentación</span>
+        </div>
+        <div class="grid" id="grid"></div>
+        <div id="empty" class="empty" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3 id="emptyTitle">Aún no hay proyectos</h3>
+          <p id="emptyText">
+            Las presentaciones aparecerán aquí cuando se agreguen.
+          </p>
+        </div>
+      </section>
+      <section class="review-note notice-panel" aria-labelledby="thanksTitle">
+        <div>
+          <h2 id="thanksTitle">Su experiencia suma</h2>
+          <p>
+            Su tiempo y sus aportes enriquecen esta experiencia de aprendizaje.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-in">
+        <div class="footer-identity"></div>
+      </div>
+    </footer>
+    <dialog id="guide">
+      <div class="dialog-head">
+        <span class="overline">PORTAL DE JURADOS</span
+        ><button class="close" id="closeGuide" aria-label="Cerrar guía">
+          ×
+        </button>
+      </div>
+      <h2>Una guía para su revisión</h2>
+      <p>
+        Estos tres pasos le ayudarán a conocer cada propuesta y preparar sus
+        preguntas.
+      </p>
+      <ol>
+        <li>
+          <b>Conozca la propuesta.</b><br />Lea la introducción para identificar
+          el problema y a quién está dirigida la solución.
+        </li>
+        <li>
+          <b>Explore el video.</b><br />Observe cómo funciona el sistema y qué
+          beneficios ofrece.
+        </li>
+        <li>
+          <b>Prepare sus preguntas.</b><br />Considere su utilidad, facilidad de
+          uso y aporte para los usuarios o las empresas.
+        </li>
+      </ol>
+      <div class="guide-note">
+        No necesita ser especialista en informática. Su perspectiva profesional
+        es valiosa para evaluar la aplicación de cada propuesta.
+      </div>
+      <p class="small">
+        La marca «Revisado» es un recordatorio personal que se guarda únicamente
+        en este navegador.
+      </p>
+      <button class="primary-btn" id="doneGuide">
+        Entendido, ver proyectos
+      </button>
+    </dialog>
+    <dialog id="videoDialog">
+      <div class="dialog-head">
+        <span class="overline">VIDEO DE PRESENTACIÓN</span
+        ><button class="close" id="closeVideo" aria-label="Cerrar video">
+          ×
+        </button>
+      </div>
+      <h2 id="videoTitle"></h2>
+      <div id="player"></div>
+      <p id="videoDescription"></p>
+      <a
+        id="youtubeLink"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="primary-btn"
+        >Abrir en YouTube ↗</a
+      >
+      <p class="small">
+        Si el video no permite reproducción aquí, ábralo en YouTube.
+      </p>
+    </dialog>
+  </body>
+</html>
