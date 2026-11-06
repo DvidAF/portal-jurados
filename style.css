@@ -1203,3 +1203,32 @@ footer::before {
     font-size: 23px;
   }
 }
+.welcome.notice-panel .text-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.welcome .text-button .button-icon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+}
+
+.welcome .text-button:hover {
+  background: #dfeafb;
+}
+
+@media (max-width: 680px) {
+  .welcome.notice-panel .text-button {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+}
