@@ -14,7 +14,7 @@ window.PROYECTOS = [
     pendiente: true,
     nota_integrantes: "Falta confirmar los demás integrantes.",
     introduccion:
-      "El nombre del proyecto y su descripción están pendientes de confirmación.",
+      "Proyecto pendiente del grupo de Roque Luis Esteche Cantero y Maria Milagros Iglesias Guzman.",
   },
   {
     id: "video-e8bsCKg7Cmw",
@@ -67,9 +67,10 @@ window.PROYECTOS = [
     integrantes: ["Rodrigo Hernan Ferreira Ojeda"],
     categoria: "PROYECTO INTEGRADOR",
     pendiente: true,
-    nota_integrantes: "Falta confirmar los demás integrantes.",
+    nota_integrantes:
+      "Proyecto pendiente del grupo de Rodrigo Hernan Ferreira Ojeda.",
     introduccion:
-      "El nombre del proyecto y su descripción están pendientes de confirmación.",
+      "Proyecto pendiente del grupo de Rodrigo Hernan Ferreira Ojeda.",
   },
   {
     id: "video-FKMEYyA9en4",
@@ -102,9 +103,9 @@ window.PROYECTOS = [
     categoria: "PROYECTO INTEGRADOR",
     pendiente: true,
     nota_integrantes:
-      "Identidad de Ricardo por confirmar. Faltan los demás integrantes.",
+      "Proyecto pendiente de Ricardo Sebastian Servian Espinola.",
     introduccion:
-      "El nombre del proyecto y su descripción están pendientes de confirmación.",
+      "Proyecto pendiente del grupo de Ricardo Sebastian Servian Espinola.",
   },
   {
     id: "video-UrINZW6UIn4",
@@ -147,3 +148,4 @@ window.PROYECTOS = [
     nota_integrantes: "",
   },
 ];
+
