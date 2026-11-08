@@ -59,18 +59,17 @@ window.PROYECTOS = [
   },
   {
     id: "grupo-04",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=w4ducsQr8Cc",
     icono: "inventario",
     ejemplo: false,
     grupo: 4,
-    nombre: "Proyecto pendiente",
+    nombre: "IndiaJuliana",
     integrantes: ["Rodrigo Hernan Ferreira Ojeda"],
     categoria: "PROYECTO INTEGRADOR",
-    pendiente: true,
-    nota_integrantes:
-      "Proyecto pendiente del grupo de Rodrigo Hernan Ferreira Ojeda.",
+    pendiente: false,
+    nota_integrantes: "Falta confirmar los demás integrantes.",
     introduccion:
-      "Proyecto pendiente del grupo de Rodrigo Hernan Ferreira Ojeda.",
+      "Presentación de IndiaJuliana, proyecto integrador del grupo 4 de Programación IV. El video muestra la propuesta del equipo y el funcionamiento del sistema.",
   },
   {
     id: "video-FKMEYyA9en4",
@@ -92,20 +91,19 @@ window.PROYECTOS = [
     introduccion:
       "Presentación del proyecto Menina Coiffure, realizada por sus estudiantes de Programación IV. Conozca la propuesta y su funcionamiento a través del video.",
   },
-  {
+   {
     id: "grupo-06",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=8u9BcEBzmVQ",
     icono: "inventario",
     ejemplo: false,
     grupo: 6,
-    nombre: "Proyecto pendiente",
+    nombre: "Parfer Confecciones",
     integrantes: ["Ricardo Sebastian Servian Espinola"],
     categoria: "PROYECTO INTEGRADOR",
-    pendiente: true,
-    nota_integrantes:
-      "Proyecto pendiente de Ricardo Sebastian Servian Espinola.",
+    pendiente: false,
+    nota_integrantes: "Falta confirmar los demás integrantes.",
     introduccion:
-      "Proyecto pendiente del grupo de Ricardo Sebastian Servian Espinola.",
+      "Presentación de Parfer Confecciones, proyecto integrador del grupo 6 de Programación IV. El video muestra la propuesta del equipo y el funcionamiento del sistema.",
   },
   {
     id: "video-UrINZW6UIn4",
