@@ -1,7 +1,8 @@
 window.PROYECTOS = [
    {
     id: "grupo-01",
-    youtube: "https://www.youtube.com/watch?v=RQx4auhGCbs",
+    youtube: "",
+    driveUrl: "https://drive.google.com/file/d/1tvrVN5lYIJpKtPmvuiosOlAhFQCjbncZ/view?usp=sharing",
     icono: "inventario",
     ejemplo: false,
     grupo: 1,
