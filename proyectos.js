@@ -3,6 +3,7 @@ window.PROYECTOS = [
     id: "grupo-01",
     youtube: "",
     driveUrl: "https://drive.google.com/file/d/1tvrVN5lYIJpKtPmvuiosOlAhFQCjbncZ/view?usp=sharing",
+    miniatura: "./miniaturas/canvas-for-teams.jpg",
     icono: "inventario",
     ejemplo: false,
     grupo: 1,
