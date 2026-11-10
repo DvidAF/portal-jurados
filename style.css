@@ -1247,10 +1247,10 @@ footer::before {
     top: 0;
     left: 0;
     display: block;
-    width: 200%;
-    height: 200%;
+    width: 250%;
+    height: 250%;
+    transform: scale(0.4);
     aspect-ratio: auto;
-    transform: scale(0.5);
     transform-origin: top left;
   }
 }
