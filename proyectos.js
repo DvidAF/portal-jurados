@@ -1,20 +1,20 @@
 window.PROYECTOS = [
-  {
+   {
     id: "grupo-01",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=RQx4auhGCbs",
     icono: "inventario",
     ejemplo: false,
     grupo: 1,
-    nombre: "Proyecto pendiente",
+    nombre: "Canvas for Teams",
     integrantes: [
       "Roque Luis Esteche Cantero",
       "Maria Milagros Iglesias Guzman",
     ],
     categoria: "PROYECTO INTEGRADOR",
-    pendiente: true,
+    pendiente: false,
     nota_integrantes: "Falta confirmar los demás integrantes.",
     introduccion:
-      "Proyecto pendiente del grupo de Roque Luis Esteche Cantero y Maria Milagros Iglesias Guzman.",
+      "Conozca Canvas for Teams, el proyecto integrador del grupo 1 de Programación IV, en el video de presentación del equipo.",
   },
   {
     id: "video-e8bsCKg7Cmw",
