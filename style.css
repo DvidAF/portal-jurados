@@ -1240,3 +1240,9 @@ footer::before {
     aspect-ratio: auto;
   }
 }
+@media (max-width: 680px) {
+  #videoDialog:has(#player iframe[src^="https://drive.google.com/"]) {
+    width: calc(100% - 12px);
+    padding-inline: 10px;
+  }
+}
