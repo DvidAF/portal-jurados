@@ -1232,3 +1232,11 @@ footer::before {
     align-self: flex-start;
   }
 }
+@media (max-width: 680px) {
+  #player iframe[src^="https://drive.google.com/"] {
+    display: block;
+    width: 100%;
+    height: 320px;
+    aspect-ratio: auto;
+  }
+}
