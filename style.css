@@ -1254,3 +1254,14 @@ footer::before {
     transform-origin: top left;
   }
 }
+
+html:has(dialog[open]),
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
+dialog[open] {
+  max-height: 90dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
