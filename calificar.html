@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Evaluar exposiciones · Programación IV</title>
+<link rel="stylesheet" href="evaluaciones.css">
+<script src="planilla-config.js" defer></script><script src="grupos.js" defer></script><script src="planilla.js" defer></script>
+</head>
+<body>
+<header><div class="wrap"><a href="./" class="back">← Volver al portal</a><p class="eyebrow">UNIVERSIDAD DEL NORTE · FACULTAD DE INGENIERÍA</p><h1>Una mirada que ayuda<br>a seguir creciendo.</h1><p>Evaluación de proyectos integradores · Programación IV</p></div></header>
+<main class="wrap">
+<section id="bienvenida" class="welcome"><span class="eyebrow">BIENVENIDO/A AL JURADO</span><h2>Gracias por acompañar a nuestros estudiantes</h2><p>Ingresá tu nombre una sola vez y evaluá los grupos en orden de exposición. Tus valoraciones se registran por separado.</p><form id="inicio"><label for="nombre">Nombre y apellido del evaluador</label><div class="start"><input id="nombre" name="nombre" autocomplete="name" maxlength="100" minlength="2" placeholder="Escribí tu nombre y apellido" required><button>Comenzar evaluación <span aria-hidden="true">→</span></button></div></form></section>
+<div id="evaluacion" hidden>
+<section class="summary"><div><span class="eyebrow">TU EVALUACIÓN</span><h2 id="evaluador"></h2><button type="button" class="link" id="cambiar">Cambiar evaluador</button></div><div class="progress"><strong id="avance">0 de 8 grupos enviados</strong><progress id="barra" value="0" max="8" aria-label="Grupos enviados"></progress><small>Los borradores se conservan en este navegador.</small></div></section>
+<div class="intro"><div><h2>Exposiciones</h2><p>Puntuá cada criterio de <strong>0 a 5</strong>. Enviá cada grupo cuando termines.</p></div><span class="pill">En orden de presentación</span></div>
+<nav id="navegacion" aria-label="Ir a un grupo"></nav>
+<div id="grupos"></div>
+</div>
+<p id="estado" role="status" aria-live="polite"></p>
+<noscript>Activá JavaScript para cargar la evaluación.</noscript>
+</main>
+<footer><div class="wrap"><strong>Programación IV</strong><span>Universidad del Norte · Proyectos integradores</span></div></footer>
+</body></html>
